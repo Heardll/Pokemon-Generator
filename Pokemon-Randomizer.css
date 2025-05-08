@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#title{
+    background-color: #CC0000;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-shadow: black 3px 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: #FF0000;
+    border-radius: 20px;
+    width: 60%;
+}
+
+body {
+    background-color: #3B4CCA;
+}
+
+#details-bar{
+    display: flex;
+    background-color: #CC0000;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-shadow: black 2px 2px;
+    color: white;
+
+}
+
+#mat{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #FF0000;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    border-top-width: 30px;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px darkblue;
+    color: white;
+    font-size: larger;
+}
+
+img{
+    background-color: white;
+    border-style: solid;
+    width: 60%;
+    border-left-width: 30px;
+    border-right-width: 30px;
+}
+
+#title-view{
+
+    display: flex;
+    justify-content: center;
+}
+
+#start-btn{
+    background-color: #CC0000;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: larger;
+    border-style: solid;
+    border: #FF0000;
+    border-radius: 50px;
+    width: 200px;
+    height: 75px;
+}
+
+.hidden{
+    display: none;
+}
+
+.normal{
+    background-color: #A8A77A;
+}
+
+.water{
+    background-color: #6390F0;
+}
+
+.fire{
+    background-color: #EE8130;
+}
+
+.electric{
+    background-color: #F7D02C;
+}
+
+.grass{
+    background-color: #7AC74C;
+}
+
+.ice{
+    background-color: #96D9D6;
+}
+
+.fighting{
+    background-color: #C22E28;
+}
+
+.poison{
+    background-color: #A33EA1;
+}
+
+.ground{
+    background-color: #E2BF65;
+}
+
+.flying{
+    background-color: #A98FF3;
+}
+
+.psychic{
+    background-color: #F95587;
+}
+
+.bug{
+    background-color: #A6B91A;
+}
+
+.rock{
+    background-color: #B6A136;
+}
+
+.ghost{
+    background-color: #735797;
+}
+
+.dragon{
+    background-color: #6F35FC;
+}
+
+.dark{
+    background-color: #705746;
+}
+
+.steel{
+    background-color: #B7B7CE;
+}
+
+.fairy{
+    background-color: #D685AD;
+}
+
+/* normal: '#A8A77A',
+fire: '#EE8130',
+water: '#6390F0',
+electric: '#F7D02C',
+grass: '#7AC74C',
+ice: '#96D9D6',
+fighting: '#C22E28',
+poison: '#A33EA1',
+ground: '#E2BF65',
+flying: '#A98FF3',
+psychic: '#F95587',
+bug: '#A6B91A',
+rock: '#B6A136',
+ghost: '#735797',
+dragon: '#6F35FC',
+dark: '#705746',
+steel: '#B7B7CE',
+fairy: '#D685AD', */
